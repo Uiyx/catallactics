@@ -1,0 +1,30 @@
+:root {
+  /* Font */
+  --font-family: sans-serif;
+  --base-font-size: 18px;
+  --line-height: 1.5;
+
+  /* Layout */
+  --body-min-margin: 16px; /* Left margin and right margin */
+  --body-available-width: calc(
+    100% - 2 * var(--body-min-margin)
+  ); /* Mobile width */
+  --body-max-width: 768px; /* Desktop width */
+
+/* Color, see https://github.com/morhetz/gruvbox */
+/* Light theme (unchanged for soft) */
+--background-color-light: #fbf1c7;
+--background-color1-light: #ebdbb2;
+--foreground-color-light: #3c3836;
+--foreground-color3-light: #665c54;
+--accent-color-light: #458688;
+--accent-color2-light: #b16286;
+
+/* Dark theme (soft contrast) */
+--background-color-dark: #32302f;
+--background-color1-dark: #3c3836;
+--foreground-color-dark: #ebdbb2;
+--foreground-color3-dark: #bdae93;
+--accent-color-dark: #458588;
+--accent-color2-dark: #b16286
+}

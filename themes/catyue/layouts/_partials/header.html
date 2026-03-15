@@ -1,0 +1,11 @@
+<h1>{{ site.Title }}</h1>
+{{ with site.Params.subtitle }}
+  <p class="site-subtitle">{{ . }}</p>
+{{ end }}
+<nav class="menu">
+  <ul class="menu__list">
+  {{- partial "header/menu.html" (dict "menuID" "main" "page" .) -}}
+  </ul>
+</nav>
+
+
