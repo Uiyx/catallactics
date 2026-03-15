@@ -11,20 +11,22 @@
   ); /* Mobile width */
   --body-max-width: 768px; /* Desktop width */
 
-  /* Color, see https://github.com/morhetz/gruvbox */
-  /* Light theme */
-  --background-color-light: #fbf1c7;
-  --background-color1-light: #ebdbb2;
-  --foreground-color-light: #3c3836;
-  --foreground-color3-light: #665c54;
-  --accent-color-light: #af3a03;
+/* Color, see https://github.com/morhetz/gruvbox */
+/* Light theme (unchanged for soft) */
+--background-color-light: #fbf1c7;
+--background-color1-light: #ebdbb2;
+--foreground-color-light: #3c3836;
+--foreground-color3-light: #665c54;
+--accent-color-light: #458688;
+--accent-color2-light: #b16286;
 
-  /* Dark theme */
-  --background-color-dark: #282828;
-  --background-color1-dark: #3c3836;
-  --foreground-color-dark: #ebdbb2;
-  --foreground-color3-dark: #bdae93;
-  --accent-color-dark: #fe8019;
+/* Dark theme (soft contrast) */
+--background-color-dark: #32302f;
+--background-color1-dark: #3c3836;
+--foreground-color-dark: #ebdbb2;
+--foreground-color3-dark: #bdae93;
+--accent-color-dark: #458588;
+--accent-color2-dark: #b16286
 }
 *,
 *::before,
@@ -94,6 +96,15 @@ h5,
 h6 {
   /* Break long words */
   overflow-wrap: break-word;
+}
+
+.header h1 {
+  margin-block-end: 0;
+}
+
+.site-subtitle {
+  font-size: smaller;
+  margin-block-start: 0.1rem;
 }
 
 .toc {
@@ -235,6 +246,10 @@ pre {
   font-size: 0.875rem;
 }
 
+.published-date {
+  font-size: smaller;
+}
+
 .footer {
   font-size: smaller;
 }
@@ -243,12 +258,11 @@ pre {
 /* Light theme by default */
 :root {
   --background-color: var(--background-color-light); /* body */
-  --background-color1: var(
-    --background-color1-light
-  ); /* blockquote, code block, border, table, hr */
+  --background-color1: var(--background-color1-light); /* blockquote, code block, border, table, hr */
   --foreground-color: var(--foreground-color-light); /* text */
   --foreground-color3: var(--foreground-color3-light); /* figcaption */
   --accent-color: var(--accent-color-light); /* link, blockquote */
+  --accent-color2: var(--accent-color2-light); /* link, blockquote */
 }
 
 /* Override variables for dark theme */
@@ -259,6 +273,7 @@ pre {
     --foreground-color: var(--foreground-color-dark);
     --foreground-color3: var(--foreground-color3-dark);
     --accent-color: var(--accent-color-dark);
+    --accent-color2: var(--accent-color2-dark);
   }
 }
 
@@ -284,9 +299,24 @@ a {
 .header {
   border-bottom: 1px solid var(--background-color1);
 }
-
+.site-subtitle {
+  color: var(--foreground-color3);
+}
 .footer {
+  color: var(--foreground-color3);
   border-top: 1px solid var(--background-color1);
+}
+.published-date {
+  color: var(--foreground-color3);
+}
+
+/* MENU nav links */
+.menu a,
+.nav a {
+  color: var(--accent-color2);
+}
+.menu__link[aria-current="page"] {
+  text-decoration: underline;
 }
 
 blockquote {
