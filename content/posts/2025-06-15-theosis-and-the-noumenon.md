@@ -4,7 +4,7 @@ description: "AQ as part of God's grace."
 date: 2025-06-15T14:35:19.781Z
 preview: ""
 draft: false
-tags: [religion, esotericism, kant, qabbala]
+tags: [Religion, Esotericism, Kant, Qabbala, Short]
 categories: []
 ---
 

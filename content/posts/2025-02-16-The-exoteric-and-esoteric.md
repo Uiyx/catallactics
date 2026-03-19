@@ -4,7 +4,7 @@ description: "The esoteric as exit."
 date: 2025-02-16T09:57:29.706Z
 preview: ""
 draft: false
-tags: [esotericism, capitalism, religion]
+tags: [Esotericism, Capitalism, Religion, Short]
 categories: []
 ---
 

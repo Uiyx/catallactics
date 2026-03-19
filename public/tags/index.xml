@@ -6,8 +6,15 @@
     <description>Recent content in Tags on catallactics.xyz</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 15 Jun 2025 14:35:19 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 18:06:55 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tag1</title>
+      <link>http://localhost:1313/tags/tag1/</link>
+      <pubDate>Tue, 17 Mar 2026 18:06:55 +0200</pubDate>
+      <guid>http://localhost:1313/tags/tag1/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Esotericism</title>
       <link>http://localhost:1313/tags/esotericism/</link>
