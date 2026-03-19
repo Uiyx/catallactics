@@ -103,3 +103,5 @@ Never was this a sequence of solutions, it was a single
 self-similar process, certainly not dissimilar to a fractal.
 The same function, at every scale,
 all the way down.
+
+{{< chat intellect-catallactics >}}
