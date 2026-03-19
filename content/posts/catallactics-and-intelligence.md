@@ -92,9 +92,9 @@ They never stopped running.
 
 Evolution still writes itself into the body,
 the subcortical loop still runs beneath language,
-language still colonizes every market signal,
-markets still aggregate what no single mind can hold,
-The machine predicts on top of all of it
+language still colonizes every human output,
+markets still aggregate what no single mind can hold.
+The machine predicts on top of everything ever put into word,
 not replacing what came before
 but inheriting it, compressing it,
 running it faster.
