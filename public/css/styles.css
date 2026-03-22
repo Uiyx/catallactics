@@ -265,6 +265,10 @@ pre {
 .footer {
   font-size: smaller;
 }
+
+.social-link:hover {
+  text-decoration: underline;
+}
 /* Color, see https://github.com/morhetz/gruvbox */
 
 /* Light theme by default */

@@ -9,6 +9,7 @@ enableEmoji: true # Emoji list: https://gohugo.io/quick-reference/emojis/
 enableRobotsTXT: true
 
 params:
+  favicon: "/favicon.ico"
   _merge: deep # Import default config
   rssFullContent: true
   homePagerSize: 5
@@ -25,7 +26,21 @@ params:
       yearEnd:
       author: KD
 
-frontmatter:
+  social:
+  - name: RSS
+    url: /index.xml
+    icon: "📡"
+  - name: Email
+    url: mailto:machinescapes@cock.li
+    icon: "📨"
+  - name: Instagram
+    url: https://www.instagram.com/coldcatallactics/ 
+    icon: "📷"
+  - name: Twitter/X
+    url: https://x.com/bodilyflesh
+    icon: "𝕏"
+
+  frontmatter:
   lastmod: ['lastmod', ':default'] # lastmod in front matter has highest precedence
 
 markup:
@@ -33,6 +48,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true # Allow HTML code in Markdown, see https://gohugo.io/getting-started/configuration-markup/#rendererunsafe
+
 
 # # Any key not defined under a languages will fall back to the global value in the root of configuration
 # languages:

@@ -1,0 +1,9 @@
+{{ with site.Params.social }}
+<div class="social-links">
+  {{ range . }}
+  <a href="{{ .url }}" class="social-link" aria-label="{{ .name }}" {{ if not (hasPrefix .url "mailto") }}rel="noopener" target="_blank"{{ end }}>
+    {{ .icon }} {{ .name }}
+  </a>
+  {{ end }}
+</div>
+{{ end }}

@@ -188,3 +188,7 @@ pre {
 .footer {
   font-size: smaller;
 }
+
+.social-link:hover {
+  text-decoration: underline;
+}
