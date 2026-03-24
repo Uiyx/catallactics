@@ -1,6 +1,23 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Inter-Regular.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Inter-Bold.woff2') format('woff2');
+  font-display: swap;
+}
+
 :root {
   /* Font */
-  --font-family: sans-serif;
+  --font-family: "Inter", "Hack Nerd Font", sans-serif;
+code, pre { font-family: "Hack Nerd Font", monospace; }
   --base-font-size: 18px;
   --line-height: 1.5;
 
