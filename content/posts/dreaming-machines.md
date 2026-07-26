@@ -388,3 +388,5 @@ Understanding begins when the language composing a system’s world can also bec
 The remaining question is whether animated language can inhabit a world that preserves its own state, returns consequences it did not author and remains capable of refusing the continuation offered to it.
 
 Only then does waking become possible.
+
+{{< chat dreaming-machines >}}
